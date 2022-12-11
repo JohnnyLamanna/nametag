@@ -29,43 +29,34 @@ main {
     padding: 20px;
 }
 
-.nametag{
+#nametag {
+    width: 400px;
+    padding-bottom: 10px;
+
     background: red;
     color: white;
-    width: 400px;
     text-align: center;
-    padding-bottom:10px;
-    padding-top:0px;
-    border-color:black
-
-
 }
 
-.greeting{
-    font-size: 60px;
-    padding-bottom:0px;
-    padding-top:10px;
-    height:0px;
-    }
+.greeting {
+    padding-top: 10px;
+    margin: 0;
 
-.body{
-    font-weight:bolder;
-    font-size: 20px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    height:0px;
-
-
-
+    font-weight: bolder;
+    font-size: 4em;
+    text-transform: uppercase;
 }
 
-.name{
+.name {
+    padding: 15px 0;
+
     background: white;
     color: black;
-    padding-top: 0px;
-    font-weight:bolder;
-    font-size: 60px;
-    padding-bottom:0px;
-    }
+    font-family: cursive;
+    font-size: 2em;
+}
 
-
+.pronoun {
+    color: white;
+    font-size: 20em;
+}

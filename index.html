@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <script type="module" src="app.js"></script>
 
+        <!-- put css fonts here -->
 
-    <script type="module" src="app.js"></script>
+        <link rel="stylesheet" href="style.css" />
 
-    <!-- put css fonts here -->
+        <title>My Project</title>
+    </head>
 
-    <link rel="stylesheet" href="style.css" />
+    <body>
+        <header style="background-color: purple">
+            <h1>My Project</h1>
+        </header>
 
-    <title>My Project</title>
-</head>
+        <main>
+            <p>
+                Name
+                <input id="name-input" />
+                Pronouns
+                <input id="pronoun-input" />
+                <!-- user types in the name -->
+                <button id="update-button">Update</button>
+                <!-- user clicks the button -->
+            </p>
 
-<body>
-    <header>
-        <h1>My Project</h1>
-    </header>
-
-    <main>
-        <p>
-        Name
-        <input>
-        <button>Update</button>
-
-        </p>
-        <div Class="nametag">
-            <p class="greeting">Hello</p>
-            <p class ="body">My name is</p>
-            <p class="name">Johnny</p>
-
-
-    </main>
-
-
-}
-</body>
-
+            <div id="nametag">
+                <p class="greeting">Hello</p>
+                <p>my name is</p>
+                <p id="name-display" class="name">Felix</p>
+                <p id="pronoun-display" class="pronoun">He/Him</p>
+                <!-- thing that will be updated -->
+            </div>
+        </main>
+    </body>
 </html>
